@@ -10,8 +10,3 @@ Build:
     $ cmake ..
     $ make
     $ cd ..
-
-Run:
-
-    $ cd test
-    $ ./run.sh
