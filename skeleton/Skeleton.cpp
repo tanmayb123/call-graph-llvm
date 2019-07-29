@@ -19,9 +19,9 @@ struct SkeletonPass : public FunctionPass {
 
   virtual bool runOnFunction(Function &F) {
     string callerName = F.getName();
-    if (!F.hasInternalLinkage()) {
-        return false;
-    }
+//    if (!F.hasInternalLinkage()) {
+//        return false;
+//    }
     map<string, set<string>> fpointers;
     map<string, string> defpointer;
 
